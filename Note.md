@@ -29,11 +29,11 @@ static void sort(Object[] a, int fromIndex, int toIndex)
 static void fill(Object[] a, int fromIndex, int tolndex, Object val);
 static void fill(Object[] a, Object val)// 下标形式遵循左闭右开
 //exam:
-	 boolean[] a1 = new boolean[5];
+     boolean[] a1 = new boolean[5];
      Arrays.fill( a1,true );
      // 结果 a1[] = {true,true,true,true,true};
 
-	 boolean[] a1 = new boolean[5];
+     boolean[] a1 = new boolean[5];
      Arrays.fill( a1,true );
      Arrays.fill( a1,3,4,false);
      //结果 a1[] = {true,true,true,false,true};
